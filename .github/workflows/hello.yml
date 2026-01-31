@@ -8,3 +8,7 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello, GitHub Actions!"  # 実行: コマンドを実行
+
+      - name: Check out code
+        uses: actions/checkout@v4
+        
